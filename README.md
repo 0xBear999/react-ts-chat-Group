@@ -1,250 +1,62 @@
-Contribution: 2021-03-24 20:00
+# Chat App
 
-Contribution: 2021-03-24 20:01
+A chat application using React, Redux Toolkit, Socket.io, and Tailwind CSS.
 
-Contribution: 2021-03-24 20:02
+![](screenshots/login.png)
 
-Contribution: 2021-03-25 20:00
+![](screenshots/app.png)
 
-Contribution: 2021-03-25 20:01
+## Setup
 
-Contribution: 2021-03-26 20:00
+### Install dependencies
 
-Contribution: 2021-03-26 20:01
+Install the dependencies for the client and server.
 
-Contribution: 2021-03-26 20:02
+```bash
+# in one terminal window
+cd server && npm i
+# in another terminal window
+cd client && npm i
+```
 
-Contribution: 2021-03-26 20:03
+### Start server
 
-Contribution: 2021-03-27 20:00
+An Express server is maintaining a Socket.io connection, persisting data short-term in memory, and exposes an API for accessing persistent data.
 
-Contribution: 2021-03-29 20:00
+```bash
+# in /server
+npm start
+```
 
-Contribution: 2021-03-29 20:01
+> Server is running on `localhost:5000`.
 
-Contribution: 2021-03-29 20:02
+### Start client
 
-Contribution: 2021-03-29 20:03
+A React server with Redux for the front end.
 
-Contribution: 2021-03-29 20:04
+```bash
+# in /client
+npm start
+```
 
-Contribution: 2021-03-29 20:05
+> Client dev server is running on `localhost:3000`.
 
-Contribution: 2021-03-29 20:06
+You can view the app at `localhost:3000`. Log in with any valid email and username, and you'll enter into the chatroom, which will display all users (noting which are currently online) and all messages.
 
-Contribution: 2021-03-29 20:07
+### Production build
 
-Contribution: 2021-03-29 20:08
+Run `npm run build` on `client` and `server` to compile to JavaScript.
 
-Contribution: 2021-03-29 20:09
+## Todos
 
-Contribution: 2021-03-29 20:10
-
-Contribution: 2021-03-29 20:11
-
-Contribution: 2021-03-30 20:00
-
-Contribution: 2021-03-30 20:01
-
-Contribution: 2021-03-30 20:02
-
-Contribution: 2021-03-30 20:03
-
-Contribution: 2021-03-30 20:04
-
-Contribution: 2021-03-30 20:05
-
-Contribution: 2021-03-30 20:06
-
-Contribution: 2021-04-02 20:00
-
-Contribution: 2021-04-02 20:01
-
-Contribution: 2021-04-02 20:02
-
-Contribution: 2021-04-02 20:03
-
-Contribution: 2021-04-02 20:04
-
-Contribution: 2021-04-02 20:05
-
-Contribution: 2021-04-02 20:06
-
-Contribution: 2021-04-04 20:00
-
-Contribution: 2021-04-04 20:01
-
-Contribution: 2021-04-04 20:02
-
-Contribution: 2021-04-04 20:03
-
-Contribution: 2021-04-04 20:04
-
-Contribution: 2021-04-04 20:05
-
-Contribution: 2021-04-04 20:06
-
-Contribution: 2021-04-04 20:07
-
-Contribution: 2021-04-04 20:08
-
-Contribution: 2021-04-04 20:09
-
-Contribution: 2021-04-04 20:10
-
-Contribution: 2021-04-04 20:11
-
-Contribution: 2021-04-05 20:00
-
-Contribution: 2021-04-05 20:01
-
-Contribution: 2021-04-05 20:02
-
-Contribution: 2021-04-05 20:03
-
-Contribution: 2021-04-05 20:04
-
-Contribution: 2021-04-05 20:05
-
-Contribution: 2021-04-05 20:06
-
-Contribution: 2021-04-05 20:07
-
-Contribution: 2021-04-05 20:08
-
-Contribution: 2021-04-05 20:09
-
-Contribution: 2021-04-05 20:10
-
-Contribution: 2021-04-06 20:00
-
-Contribution: 2021-04-06 20:01
-
-Contribution: 2021-04-06 20:02
-
-Contribution: 2021-04-08 20:00
-
-Contribution: 2021-04-10 20:00
-
-Contribution: 2021-04-11 20:00
-
-Contribution: 2021-04-11 20:01
-
-Contribution: 2021-04-11 20:02
-
-Contribution: 2021-04-11 20:03
-
-Contribution: 2021-04-11 20:04
-
-Contribution: 2021-04-11 20:05
-
-Contribution: 2021-04-11 20:06
-
-Contribution: 2021-04-11 20:07
-
-Contribution: 2021-04-11 20:08
-
-Contribution: 2021-04-12 20:00
-
-Contribution: 2021-04-12 20:01
-
-Contribution: 2021-04-12 20:02
-
-Contribution: 2021-04-12 20:03
-
-Contribution: 2021-04-12 20:04
-
-Contribution: 2021-04-12 20:05
-
-Contribution: 2021-04-14 20:00
-
-Contribution: 2021-04-14 20:01
-
-Contribution: 2021-04-14 20:02
-
-Contribution: 2021-04-14 20:03
-
-Contribution: 2021-04-14 20:04
-
-Contribution: 2021-04-14 20:05
-
-Contribution: 2021-04-14 20:06
-
-Contribution: 2021-04-15 20:00
-
-Contribution: 2021-04-15 20:01
-
-Contribution: 2021-04-15 20:02
-
-Contribution: 2021-04-15 20:03
-
-Contribution: 2021-04-15 20:04
-
-Contribution: 2021-04-15 20:05
-
-Contribution: 2021-04-16 20:00
-
-Contribution: 2021-04-17 20:00
-
-Contribution: 2021-04-17 20:01
-
-Contribution: 2021-04-17 20:02
-
-Contribution: 2021-04-17 20:03
-
-Contribution: 2021-04-17 20:04
-
-Contribution: 2021-04-17 20:05
-
-Contribution: 2021-04-17 20:06
-
-Contribution: 2021-04-17 20:07
-
-Contribution: 2021-04-18 20:00
-
-Contribution: 2021-04-19 20:00
-
-Contribution: 2021-04-22 20:00
-
-Contribution: 2021-04-22 20:01
-
-Contribution: 2021-04-22 20:02
-
-Contribution: 2021-04-22 20:03
-
-Contribution: 2021-04-22 20:04
-
-Contribution: 2021-04-22 20:05
-
-Contribution: 2021-04-22 20:06
-
-Contribution: 2021-04-22 20:07
-
-Contribution: 2021-04-23 20:00
-
-Contribution: 2021-04-23 20:01
-
-Contribution: 2021-04-23 20:02
-
-Contribution: 2021-04-25 20:00
-
-Contribution: 2021-04-25 20:01
-
-Contribution: 2021-04-25 20:02
-
-Contribution: 2021-04-25 20:03
-
-Contribution: 2021-04-25 20:04
-
-Contribution: 2021-04-25 20:05
-
-Contribution: 2021-04-25 20:06
-
-Contribution: 2021-04-25 20:07
-
-Contribution: 2021-04-25 20:08
-
-Contribution: 2021-04-25 20:09
-
-Contribution: 2021-04-26 20:00
-
+- [ ] Duplicate users should be checked and not allowed
+- [x] Add user is typing
+- [ ] Allow tagging
+- [ ] Add settings
+- [ ] Add error handling
+- [ ] Add tests
+  - [ ] Jest Unit tests
+  - [ ] React Testing Library component tests
+  - [ ] Cypress end-to-end tests
+- [ ] Add ESLint
+- [x] Add Docker support

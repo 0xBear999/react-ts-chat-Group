@@ -1,4 +1,4 @@
-# Chat App
+# Chat App by cryptoSyndrome
 
 A chat application using React, Redux Toolkit, Socket.io, and Tailwind CSS.
 
